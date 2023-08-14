@@ -1,0 +1,225 @@
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.info {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 360px;
+}
+.contact img {
+    max-width: 150px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    gap: 12px;
+}
+.email a {
+    color: var(--medium-grey);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.address {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 12px;
+}
+
+.address p {
+    color: var(--medium-grey);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.newsletter p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    margin-bottom: 5px;
+}
+
+.newsletter-address {
+    display: flex;
+    gap: 12px;
+}
+
+.newsletter-address input {
+    max-width: 250px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    padding-left: 12px;
+}
+
+.newsletter-address input::placeholder {
+    font-size: 14px;
+    color: var(--medium-grey);
+}
+
+.newsletter-address button {
+    max-width: 100px;
+    width: 100%;
+    height: 50px;
+    color: var(--primary);
+    border: none;
+    background-color: #ebf2ff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.company a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--medium-grey);
+}
+
+.cases {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cases a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--medium-grey);
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--medium-grey);
+}
+
+.talk-to-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.talk-to-us p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.whatsapp-bttn {
+    width: 210px;
+    height: 50px;
+    border: 1px solid #009978;
+    color: #009978;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.message-bttn {
+    width: 210px;
+    height: 50px;
+    border: 1px solid #0062ff;
+    color: #0062ff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.talk-to-us-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    padding: 32px 0 32px 0;
+    border-top: 1px solid var(--light-grey);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright-area {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-area p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--medium-grey);
+}
+
+.copyright-area span {
+    display: flex;
+    gap: 32px;
+}
+
+.copyright-area span a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--medium-grey);
+}
+
+.return-bttn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: var(--primary);
+    cursor: pointer;
+}

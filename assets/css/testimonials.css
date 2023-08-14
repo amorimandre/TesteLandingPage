@@ -1,0 +1,129 @@
+.testimonials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(249, 250, 250, 1) 60%, rgba(255, 255, 255, 1) 60%, rgba(249, 250, 250, 1) 100%);
+}
+
+.testimonials-area {
+    width: 200vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    transition: all 2s ease;
+    border: 2px solid red;
+    overflow: hidden;
+}
+
+.testimonials-card {
+    background-color: var(--secondary);
+    max-height: 450px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+#card-pedro {
+    display: flex;
+}
+
+#card-herick {
+    display: flex;
+}
+
+.testimonials-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 55px 0 40px 55px;
+    gap: 65px;
+}
+
+.testimonials-text p {
+    font-family: "Archivo", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 48px;
+    color: var(--black);
+}
+
+.testimonials-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.testimonials-info h4 {
+    font-family: "Archivo", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 26px;
+    color: var(--primary);
+}
+
+.testimonials-info h5 {
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.testimonals-bttns {
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: calc(100vw - 340px);
+    margin: 40px;
+}
+
+.testimonals-bttn-left,
+.testimonals-bttn-right {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+.testimonals-bttn-left.desactivated {
+    background-color: #001eff1f;
+    cursor: default;
+}
+
+.testimonals-bttn-right.desactivated {
+    background-color: #001eff1f;
+    cursor: default;
+}
+
+.testimonals-bttn-left img {
+    rotate: 180deg;
+}
+
+.sponsors {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsors h3 {
+    padding: 80px 0 60px 0;
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--black);
+}
+
+.sponsors .brands {
+    margin-bottom: 120px;
+    display: flex;
+    gap: 95px;
+}

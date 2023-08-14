@@ -1,0 +1,114 @@
+main {
+    display: flex;
+    justify-content: center;
+    background: rgb(226, 228, 232);
+    background: linear-gradient(
+        180deg,
+        rgba(226, 228, 232, 1) 0%,
+        rgba(226, 228, 232, 1) 60%,
+        rgba(255, 206, 0, 1) 60%,
+        rgba(255, 206, 0, 1) 100%,
+        rgba(255, 255, 255, 1) 150%
+    );
+    flex-direction: column;
+    width: 100vw;
+}
+
+.main-content-area {
+    display: flex;
+    margin: 0 auto 5.938rem auto;
+    background-color: var(--primary);
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+.main-content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.main-content-text h1 {
+    font-family: "Archivo", sans-serif;
+    color: var(--white);
+    padding-bottom: 1.5rem;
+    max-width: 25.875rem;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.main-content-text p {
+    color: var(--white);
+    max-width: 25.875rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.main-content-bttn {
+    background-color: var(--secondary);
+    align-self: self-start;
+    width: 9.125rem;
+    height: 3rem;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 16%;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.main-about-area img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.main-about-area {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 6.25rem;
+}
+
+.main-about-area p {
+    max-width: 18rem;
+    color: var(--dark-grey);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Archivo", sans-serif;
+    line-height: 2rem;
+}
+
+.main-about-cards {
+    display: flex;
+    justify-content: space-around;
+
+    max-width: 100%;
+    gap: 4.063rem;
+}
+
+.main-about-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    max-width: 235px;
+}
+
+.main-about-card span {
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 1.625rem;
+}
+
+.main-about-card p {
+    font-weight: 400;
+    color: var(--black);
+    font-size: 1rem;
+    line-height: 1.313rem;
+}
