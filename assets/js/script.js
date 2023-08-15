@@ -1,6 +1,14 @@
-let showingPage = 1;
-let leftBttn = document.getElementById("bttn-left");
-let rightBttn = document.getElementById("bttn-right");
-let cardPedro = document.getElementById("card-pedro");
-let cardHerick = document.getElementById("card-herick");
-let testArea = document.getElementById("testimonials-area");
+let reBttn = document.getElementById("return-bttn");
+
+reBttn.addEventListener("click", () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+});
+var swiper = new Swiper(".swiper", {
+    cssMode: true,
+    loop: false,
+    navigation: {
+        nextEl: ".swiper-button-prev",
+        prevEl: ".swiper-button-next",
+    },
+    keyboard: true,
+});

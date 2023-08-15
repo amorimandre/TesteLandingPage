@@ -1,15 +1,8 @@
 main {
     display: flex;
     justify-content: center;
-    background: rgb(226, 228, 232);
-    background: linear-gradient(
-        180deg,
-        rgba(226, 228, 232, 1) 0%,
-        rgba(226, 228, 232, 1) 60%,
-        rgba(255, 206, 0, 1) 60%,
-        rgba(255, 206, 0, 1) 100%,
-        rgba(255, 255, 255, 1) 150%
-    );
+    background: #f2f4ff;
+    background: linear-gradient(180deg, #f2f4ff 0%, #f2f4ff 60%, rgba(255, 206, 0, 1) 60%, rgba(255, 206, 0, 1) 100%, #f2f4ff 150%);
     flex-direction: column;
     width: 100vw;
 }
